@@ -1,0 +1,24 @@
+{
+  "name": "sottd-playcanvas",
+  "version": "1.0.0",
+  "description": "Playcanvas project Sword of then thousend death",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordoftheflies/sottd-playcanvas.git"
+  },
+  "keywords": [
+    "mmorpg",
+    "playcanvas",
+    "polymer"
+  ],
+  "author": "lordoftheflies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordoftheflies/sottd-playcanvas/issues"
+  },
+  "homepage": "https://github.com/lordoftheflies/sottd-playcanvas#readme"
+}
