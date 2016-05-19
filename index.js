@@ -13,6 +13,6 @@ io.sockets.on('connection', function (socket) {
 console.log('Server started.');
 server.listen(3000);
 
-socket.on('playerJoined', function (name) {
+server.on('playerJoined', function (name) {
     console.log(name);
 });
