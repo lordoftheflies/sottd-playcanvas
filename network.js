@@ -5,3 +5,4 @@
  */
 this.socket = io.connect('http://localhost:3000/');
 
+this.socket.emit ('playerJoined', 'John');
