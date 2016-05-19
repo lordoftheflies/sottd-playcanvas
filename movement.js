@@ -7,7 +7,7 @@
 
 pc.script.attribute('playerSpeed', 'number', 30, {displayName: 'Player Speed'});
 
-pc.script.create('Movement', function (app) {
+pc.script.create('movement', function (app) {
     // Creates a new Movement instance
     var Movement = function (entity) {
         this.entity = entity;
