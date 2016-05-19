@@ -9,12 +9,12 @@ pc.script.attribute('playerSpeed', 'number', 30, {displayName: 'Player Speed'});
 
 pc.script.create('movement', function (app) {
     // Creates a new Movement instance
-    var Movement = function (entity) {
+    var movement = function (entity) {
         this.entity = entity;
         this.force = new pc.Vec3();
     };
 
-    Movement.prototype = {
+    movement.prototype = {
         // Called every frame, dt is time in seconds since last update
         update: function (dt) {
             var forward = this.entity.forward;
@@ -53,6 +53,6 @@ pc.script.create('movement', function (app) {
         }
     };
 
-    return Movement;
+    return movement;
 
 });
